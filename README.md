@@ -37,16 +37,20 @@ There are two easy ways to import this dashboard:
 5. Choose your **Prometheus** data source → click **Import**.
 
 I've also uploaded it on the [Grafana](https://grafana.com/grafana/dashboards/24165) so you can import the ID to your Grafana.
+
+
+[Live view monitoring example](https://stats.znand.my.id/public-dashboards/0d2e47fff86c4b398632b13fc496b395) 
+
 ## Screenshots
 
 ### Storage, Service and CPU, RAM usage
 ![Storage-Service](assets/screenshots/storage-service-cpu-ram-usage.png)
 
-### Camera Performance
-![Camera Performance](assets/screenshots/camera-performance.png)
-
 ### GC Metrics
 ![GC Metrics](assets/screenshots/gc-metrics.png)
+
+### Camera Performance
+![Camera Performance](assets/screenshots/camera-performance.png)
 
 ---
 
