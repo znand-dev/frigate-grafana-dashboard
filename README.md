@@ -1,8 +1,12 @@
+![Grafana](https://img.shields.io/badge/Grafana-Dashboard-F46800?logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-Metrics-E6522C?logo=prometheus&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 # Frigate Grafana Dashboard
 
 This repository contains a Grafana dashboard for monitoring [Frigate](https://github.com/blakeblackshear/frigate) with Prometheus.
 
-## 📊 Features
+## Features
 - Python runtime & Garbage Collector (GC) monitoring
 - CPU & memory usage (system + per-process)
 - Camera FPS (input, processed, detection, skipped)
@@ -10,12 +14,12 @@ This repository contains a Grafana dashboard for monitoring [Frigate](https://gi
 - Storage utilization (recordings, clips, cache, shm)
 - Frigate service uptime & version info
 
-## 🛠️ Requirements
+## Requirements
 - Grafana ≥ 9.x
 - Prometheus
 - Frigate with `/api/metrics` enabled
 
-## ⚙️ Prometheus Configuration
+## Prometheus Configuration
 Add this job to your `prometheus.yml`:
 
 ```yaml
