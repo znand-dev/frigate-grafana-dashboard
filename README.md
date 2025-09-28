@@ -59,3 +59,10 @@ scrape_configs:
     static_configs:
       - targets: ['192.168.1.50:5000']   # Replace with your Frigate host:port
     metrics_path: /api/metrics
+```
+
+## Feedback
+
+Pull Requests, Issues, and Suggestions are always welcome!
+
+**Made with ❤️ by [znanddev](https://github.com/znand-dev)**
